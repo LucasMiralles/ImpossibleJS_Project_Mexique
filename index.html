@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impossible JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/retro.ico" type="image/x-icon">
+</head>
+<body>
+<audio autoplay loop playsinline class="background-audio" id="backgroundAudio">
+    <source src="audio/retromusic.mp3" type="audio/mp3">
+</audio>
+
+<div class="container">
+    <video autoplay loop muted playsinline class="video">
+        <source src="video/ArcadeGame.mp4" type="video/mp4">
+    </video>
+    <div class="row">
+        <div class="column">
+            <h1>IMPOSSIBLE JS</h1>
+            <div class="game-info">
+                <div class="player-name">
+                    Nombre del Jugador : No Player
+                </div>
+                <div class="timer">
+                    Tiempo transcurrido : <span id="time">00:00:00</span>
+                </div>
+                <div class="moves">
+                    Movimientos : <span id="moves">0</span>
+                </div>
+            </div>
+            <img src="img/microb.png" alt="micro img" class="micro-img" id="microImage">
+            <button class="button" id="startButton">NEW GAME</button>
+        </div>
+        <div class="game-board">
+            <div class="tile">1</div>
+            <div class="tile">2</div>
+            <div class="tile">3</div>
+            <div class="tile">4</div>
+            <div class="tile">5</div>
+            <div class="tile">6</div>
+            <div class="tile">7</div>
+            <div class="tile">8</div>
+            <div class="tile">9</div>
+            <div class="tile">10</div>
+            <div class="tile">11</div>
+            <div class="tile">12</div>
+            <div class="tile">13</div>
+            <div class="tile">14</div>
+            <div class="tile">15</div>
+            <div class="empty"></div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
